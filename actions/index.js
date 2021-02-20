@@ -9,3 +9,9 @@ export const logout = () => {
         type: "LOGOUT"
     }
 }
+export const setUser = (user) => {
+    return {
+        type: "SETUSER",
+        payload: user
+    }
+}
